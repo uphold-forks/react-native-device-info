@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : "+"
+    def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : "16.1.0"
 
     compile 'com.facebook.react:react-native:+'
     compile "com.google.android.gms:play-services-gcm:$googlePlayServicesVersion"
